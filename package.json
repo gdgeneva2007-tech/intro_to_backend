@@ -1,0 +1,28 @@
+{
+  "name": "intro_to_backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "homepage": "https://github.com/gdgeneva2007-tech/intro_to_backend#readme",
+  "bugs": {
+    "url": "https://github.com/gdgeneva2007-tech/intro_to_backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdgeneva2007-tech/intro_to_backend.git"
+  },
+  "license": "ISC",
+  "author": "Geneva",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index/js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
